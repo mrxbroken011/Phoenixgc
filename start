@@ -1,1 +1,2 @@
+echo "Starting the application..."
 python3 -m DAXXMUSIC
