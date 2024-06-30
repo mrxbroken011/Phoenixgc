@@ -9,8 +9,8 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", 22138812))
+API_HASH = getenv("API_HASH", "83f6908fe0c90bf7a6586be34939a170")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
@@ -38,7 +38,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6706728330))
+OWNER_ID = int(getenv("OWNER_ID", 7374966263))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -53,7 +53,7 @@ GPT_API = getenv("GPT_API")
 # ----------------------------------------------------------------
 DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/karan552777/Babydoll.git")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Mrxbroken011/Phoenixgc.git")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)  
 # ----------------------------------------------------------------
