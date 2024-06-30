@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","rudexabhay")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "rudexabhay")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@ExoticBaby_Bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "rudexabhay")
 # ---------------------------------------------------------
@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002131019238))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 6706728330))
@@ -53,14 +53,10 @@ GPT_API = getenv("GPT_API")
 # ----------------------------------------------------------------
 DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
-UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/RudeXAbhay/success/",
-)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/karan552777/Babydoll.git")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
-)  # ----------------------------------------------------------------
+GIT_TOKEN = getenv("GIT_TOKEN", None)  
+# ----------------------------------------------------------------
 # -------------------------------------------------------------------
 # --------------------------------------------------------------------
 # --------------------------------------------------------------------
